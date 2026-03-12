@@ -5,7 +5,9 @@ public class Main
         for(int i =1;i*i<=n;i++){
             if(n%i==0){
                 System.out.println(i);
+                if(i!=n/i){                            // for not getting repetable values
                 System.out.println(n/i);
+                }
             }
         }
     
@@ -17,6 +19,7 @@ public class Main
 		PrintDivisors(n);
 	}
 }
+
 
 Output :
 
